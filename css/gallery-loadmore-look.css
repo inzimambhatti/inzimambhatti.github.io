@@ -1,0 +1,29 @@
+header{
+	font-size: 24px;
+	font-family: 'Dokdo',cursive;
+	text-align: center;
+}
+p{
+	font-size: 20px;
+}
+main{
+	margin-left: 120px;
+}
+.box{
+	width: 20%;
+	float: left;
+	padding: 10px;
+	display: block;
+	padding-left: 12px;
+
+}
+img{
+	width: 100%;
+	
+	border-radius :10px;
+}
+img:hover{
+	transform: scale(2,2);
+	transition: 0.8s ease;
+	cursor: pointer;
+}

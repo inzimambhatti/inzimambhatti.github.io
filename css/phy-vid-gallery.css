@@ -1,0 +1,15 @@
+div.gallery{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	float: left;
+	-webkit-transition-duration-:1s;
+	transition-duration: 1s;
+
+}
+div.gallery:hover{
+	background-color: grey;
+}
+div .text{
+	font-family: comic sans ms;
+}

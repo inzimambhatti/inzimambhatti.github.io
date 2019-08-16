@@ -1,0 +1,15 @@
+.vid{
+	padding-left: 160px;
+}
+h1{
+	text-align: center;
+	text-decoration: none;
+	margin-right: 27%;
+
+}
+body{
+	background-color:  #01d7a7;
+}
+.vid video{
+	padding: 15px;
+}

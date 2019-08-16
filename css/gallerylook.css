@@ -1,0 +1,57 @@
+body{
+	background: rgba(27,31,34,0.85);
+}
+h1{
+	font-size: 2.1rem;
+	line-height: 1.4;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+}
+.main{
+	width: 70%;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: url(../img/36.jpg);
+	transform: translate(-50%,-50%);
+	background-size: 100% 100%;
+	box-shadow: 1px 3px 10px 5px white;
+	animation: slider 15s infinite linear;
+}
+@keyframes slider{
+	0%{background-image: url(../img/36.jpg);}
+	25%{background-image: url(../img/38.jpg);}
+	50%{background-image: url(../img/39.jpg);}
+	75%{background-image: url(../img/40.jpg);}
+
+}
+.button{
+	margin-top: 30%;
+	width: auto;
+	margin-left: 38%;
+	padding: 20px;
+}
+.button h2 a {
+	 color: white;
+	 background-color: #01d7a7;
+	 border-radius: 3px;
+	 padding: 10px 30px;
+	 text-align: center;
+	 letter-spacing: 0.5px;
+	 text-decoration: none;
+	 margin-right: 10px;
+	 line-height: 26px;
+	 display: inline-block;
+	 font-size: 20px;
+	 margin-top: 20px;
+	 transition: 0.7s ease;
+
+
+}
+.button h2 a:hover
+{
+	background-color:#272727;
+}
